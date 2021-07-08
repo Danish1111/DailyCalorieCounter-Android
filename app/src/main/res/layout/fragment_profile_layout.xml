@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.abc.dailycaloriecounter.fragments.FragmentDiary">
+
+    <!--<com.example.abc.dailycaloriecounter.HorizontalCalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        app:sizeBottomText="@dimen/m12sp"
+        app:sizeMiddleText="@dimen/m16sp"
+        app:sizeTopText="@dimen/m12sp"
+        app:textColorNormal="@color/white"
+        app:textColorSelected="@color/black"
+        app:selectorColor="@color/transparent"
+        android:layout_height="wrap_content"
+        android:background="@color/ios_orange" />-->
+
+
+
+
+</LinearLayout>

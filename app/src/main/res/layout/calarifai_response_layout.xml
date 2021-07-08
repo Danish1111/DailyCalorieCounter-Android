@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:paddingTop="@dimen/m5dp"
+            android:paddingBottom="@dimen/m5dp"
+            android:gravity="center"
+            style="@style/MatchWidth"
+            android:orientation="horizontal">
+
+            <com.example.abc.dailycaloriecounter.views.TextViewPlus
+                style="@style/WrapContent"
+                android:id="@+id/tv_food_name"
+                android:layout_marginLeft="@dimen/m20sp"
+                android:paddingTop="@dimen/m5dp"
+                android:text="Chicken"
+                android:textColor="@color/cobalt_black"
+                android:textSize="@dimen/m16dp" />
+
+
+            <com.example.abc.dailycaloriecounter.views.TextViewPlus
+                style="@style/MatchWidth"
+                android:id="@+id/tv_percentage"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingTop="@dimen/m5dp"
+                android:layout_marginRight="@dimen/m20dp"
+                android:paddingBottom="@dimen/m5dp"
+                android:text="230 cal"
+                android:textColor="@color/ios_orange"
+                android:textSize="@dimen/m16dp" />
+
+        </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_marginTop="@dimen/m5dp"
+        android:layout_marginLeft="@dimen/m5dp"
+        android:layout_marginRight="@dimen/m5dp"
+        android:layout_height="2dp"
+        android:background="@color/black_et">
+    </View>
+
+
+
+<!--    <view
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/m20sp"
+        android:background="@color/black_et"/>-->
+
+
+</LinearLayout>

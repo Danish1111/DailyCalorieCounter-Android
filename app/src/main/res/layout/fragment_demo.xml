@@ -1,0 +1,244 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.abc.dailycaloriecounter.fragments.FragmentDiary">
+
+    <com.example.abc.dailycaloriecounter.HorizontalCalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        app:sizeBottomText="@dimen/m12sp"
+        app:sizeMiddleText="@dimen/m16sp"
+        app:sizeTopText="@dimen/m12sp"
+        app:textColorNormal="@color/white"
+        app:textColorSelected="@color/black"
+        app:selectorColor="@color/transparent"
+        android:layout_height="wrap_content"
+        android:background="@color/ios_orange" />
+
+    <android.support.v4.widget.NestedScrollView
+       style="@style/MatchWidth">
+
+        <LinearLayout
+            android:orientation="vertical"
+            style="@style/MatchWidth">
+
+            <LinearLayout
+                style="@style/MatchWidth"
+                android:layout_marginTop="@dimen/m25dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    style="@style/MatchWidth"
+                    android:gravity="center">
+
+                    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                        android:id="@+id/progress_bar"
+                        android:layout_width="230dp"
+                        android:layout_height="230dp"
+                        app:cpb_background_progressbar_color="@color/platinum"
+                        app:cpb_background_progressbar_width="15dp"
+                        app:cpb_progressbar_color="@color/ios_orange"
+                        app:cpb_progressbar_width="@dimen/m15dp" />
+
+
+                    <com.example.abc.dailycaloriecounter.views.TextViewPlus
+                        style="@style/MatchWidth"
+                        android:layout_alignRight="@+id/progress_bar"
+                        android:layout_marginTop="@dimen/m70dp"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:text="1543"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/m20dp"
+                        app:customFont="@string/OpenSans_Regular" />
+
+                    <com.example.abc.dailycaloriecounter.views.TextViewPlus
+                        style="@style/MatchWidth"
+                        android:layout_alignRight="@+id/progress_bar"
+                        android:layout_marginTop="@dimen/m95dp"
+                        android:gravity="center"
+                        android:text="Calarie Left"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/m16dp"
+                        app:customFont="@string/OpenSans_Regular" />
+
+                    <com.example.abc.dailycaloriecounter.views.TextViewPlus
+                        style="@style/MatchWidth"
+                        android:layout_alignRight="@+id/progress_bar"
+                        android:layout_marginTop="@dimen/m130dp"
+                        android:gravity="center"
+                        android:text="500"
+                        android:textColor="@color/cobalt_black"
+                        android:textSize="@dimen/m20dp"
+                        app:customFont="@string/DroidSans" />
+
+                    <com.example.abc.dailycaloriecounter.views.TextViewPlus
+                        style="@style/MatchWidth"
+                        android:layout_alignRight="@+id/progress_bar"
+                        android:layout_marginTop="@dimen/m150dp"
+                        android:gravity="center"
+                        android:text="Consumed"
+                        android:textColor="@color/cobalt_black"
+                        android:textSize="@dimen/m16dp"
+                        app:customFont="@string/DroidSans" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MatchWidth"
+                android:layout_marginBottom="@dimen/m10dp"
+                android:layout_marginTop="@dimen/m50dp">
+
+                <LinearLayout
+                    style="@style/MatchWidth"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.example.abc.dailycaloriecounter.views.TextViewPlus
+                        style="@style/MatchWidth"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="CARBS"
+                        android:textColor="@color/cobalt_black"
+                        android:textSize="@dimen/m14sp"
+                        app:customFont="@string/OpenSans_Bold" />
+
+
+                    <com.example.abc.dailycaloriecounter.views.TextViewPlus
+                        style="@style/MatchWidth"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="0g/201g"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/m13sp"
+                        app:customFont="@string/OpenSans_Regular" />
+
+
+                    <ProgressBar
+                        android:id="@+id/horizontal_progress_bar_carbs"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_width="60dp"
+                        android:layout_height="5dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="@dimen/m10dp"
+                        android:max="100"
+                        android:progress="50"
+                        android:progressDrawable="@drawable/progress_drawable" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="@dimen/m6dp"
+                    android:layout_marginTop="@dimen/m6dp"
+                    android:background="@color/platinum" />
+
+                <LinearLayout
+                    style="@style/MatchWidth"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.example.abc.dailycaloriecounter.views.TextViewPlus
+                        style="@style/MatchWidth"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="PROTEIN"
+                        android:textColor="@color/cobalt_black"
+                        android:textSize="@dimen/m14sp"
+                        app:customFont="@string/OpenSans_Bold" />
+
+
+                    <com.example.abc.dailycaloriecounter.views.TextViewPlus
+                        style="@style/MatchWidth"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="30g/55g"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/m13sp"
+                        app:customFont="@string/OpenSans_Regular" />
+
+
+                    <ProgressBar
+                        android:id="@+id/horizontal_progress_bar_protein"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_width="60dp"
+                        android:layout_height="5dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="@dimen/m10dp"
+                        android:max="100"
+                        android:progress="50"
+                        android:progressDrawable="@drawable/progress_drawable" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="@dimen/m6dp"
+                    android:layout_marginTop="@dimen/m6dp"
+                    android:background="@color/platinum" />
+
+                <LinearLayout
+                    style="@style/MatchWidth"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.example.abc.dailycaloriecounter.views.TextViewPlus
+                        style="@style/MatchWidth"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="FAT"
+                        android:textColor="@color/cobalt_black"
+                        android:textSize="@dimen/m14sp"
+                        app:customFont="@string/OpenSans_Bold" />
+
+
+                    <com.example.abc.dailycaloriecounter.views.TextViewPlus
+                        style="@style/MatchWidth"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="0g/49g"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/m13sp"
+                        app:customFont="@string/OpenSans_Regular" />
+
+
+                    <ProgressBar
+                        android:id="@+id/horizontal_progress_bar_fat"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_width="60dp"
+                        android:layout_height="5dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="@dimen/m10dp"
+                        android:max="100"
+                        android:progress="50"
+                        android:progressDrawable="@drawable/progress_drawable" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+</LinearLayout>

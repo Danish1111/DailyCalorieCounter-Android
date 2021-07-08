@@ -1,0 +1,137 @@
+<resources>
+    <dimen name="m0dp">0dp</dimen>
+    <dimen name="m1dp">1dp</dimen>
+    <dimen name="m2dp">2dp</dimen>
+    <dimen name="m3dp">3dp</dimen>
+    <dimen name="m4dp">4dp</dimen>
+    <dimen name="m5dp">5dp</dimen>
+    <dimen name="m6dp">6dp</dimen>
+    <dimen name="m7dp">7dp</dimen>
+    <dimen name="m8dp">8dp</dimen>
+    <dimen name="m9dp">9dp</dimen>
+    <dimen name="m10dp">10dp</dimen>
+    <dimen name="m11dp">11dp</dimen>
+    <dimen name="m12dp">12dp</dimen>
+    <dimen name="m13dp">13dp</dimen>
+    <dimen name="m14dp">14dp</dimen>
+    <dimen name="m15dp">15dp</dimen>
+    <dimen name="m16dp">16dp</dimen>
+    <dimen name="m17dp">17dp</dimen>
+    <dimen name="m18dp">18dp</dimen>
+    <dimen name="m20dp">20dp</dimen>
+    <dimen name="m21dp">21dp</dimen>
+    <dimen name="m22dp">22dp</dimen>
+    <dimen name="m24dp">24dp</dimen>
+    <dimen name="m25dp">25dp</dimen>
+    <dimen name="m30dp">30dp</dimen>
+    <dimen name="m31dp">31dp</dimen>
+    <dimen name="m32dp">32dp</dimen>
+    <dimen name="m33dp">33dp</dimen>
+    <dimen name="m35dp">35dp</dimen>
+    <dimen name="m36dp">36dp</dimen>
+    <dimen name="m38dp">38dp</dimen>
+    <dimen name="m40dp">40dp</dimen>
+    <dimen name="m45dp">45dp</dimen>
+    <dimen name="m48dp">48dp</dimen>
+    <dimen name="m50dp">50dp</dimen>
+    <dimen name="m54dp">54dp</dimen>
+    <dimen name="m55dp">55dp</dimen>
+    <dimen name="m58dp">58dp</dimen>
+    <dimen name="m60dp">60dp</dimen>
+    <dimen name="m64dp">64dp</dimen>
+    <dimen name="m65dp">65dp</dimen>
+    <dimen name="m70dp">70dp</dimen>
+    <dimen name="m72dp">72dp</dimen>
+    <dimen name="m74dp">74dp</dimen>
+    <dimen name="m75dp">75dp</dimen>
+    <dimen name="m80dp">80dp</dimen>
+    <dimen name="m84dp">84dp</dimen>
+    <dimen name="m85dp">85dp</dimen>
+    <dimen name="m90dp">90dp</dimen>
+    <dimen name="m95dp">95dp</dimen>
+    <dimen name="m96dp">96dp</dimen>
+    <dimen name="m100dp">100dp</dimen>
+    <dimen name="m120dp">120dp</dimen>
+    <dimen name="m130dp">130dp</dimen>
+    <dimen name="m140dp">140dp</dimen>
+    <dimen name="m150dp">150dp</dimen>
+    <dimen name="m160dp">160dp</dimen>
+    <dimen name="m170dp">170dp</dimen>
+    <dimen name="m180dp">180dp</dimen>
+    <dimen name="m200dp">200dp</dimen>
+
+    <!--font sizes-->
+    <dimen name="m8sp">8sp</dimen>
+    <dimen name="m9sp">9sp</dimen>
+    <dimen name="m10sp">10sp</dimen>
+    <dimen name="m11sp">11sp</dimen>
+    <dimen name="m12sp">12sp</dimen>
+    <dimen name="m13sp">13sp</dimen>
+    <dimen name="m14sp">14sp</dimen>
+    <dimen name="m15sp">15sp</dimen>
+    <dimen name="m16sp">16sp</dimen>
+    <dimen name="m17sp">17sp</dimen>
+    <dimen name="m18sp">18sp</dimen>
+    <dimen name="m20sp">20sp</dimen>
+    <dimen name="m22sp">22sp</dimen>
+    <dimen name="m23sp">23sp</dimen>
+    <dimen name="m24sp">24sp</dimen>
+    <dimen name="m26sp">26sp</dimen>
+    <dimen name="title_size">20sp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="corner_radius">3dp</dimen>
+    <dimen name="widget_image_height">100dp</dimen>
+    <dimen name="widget_image_width">100dp</dimen>
+    <dimen name="course_label_horizontal_margin">10dp</dimen>
+    <dimen name="gradient_radius">5dp</dimen>
+    <dimen name="fb_card_width">230dp</dimen>
+
+    <dimen name="cover_width">40dp</dimen>
+    <dimen name="cover_height">40dp</dimen>
+    <dimen name="chart_font_size">14sp</dimen>
+
+    <dimen name="fab_elevation">8dp</dimen>
+    <dimen name="fab_elevation_press">12dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+
+    <dimen name="statusbar_size">24dp</dimen>
+
+    <dimen name="cardview_toolbar_spacer">16dp</dimen>
+
+    <dimen name="toolbar_double_height">112dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="activity_margin_half">8dp</dimen>
+
+    <dimen name="card_elevation">1dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+
+    <dimen name="til_padding_top">10dp</dimen>
+    <dimen name="til_padding_bottom">20dp</dimen>
+
+    <!--sweet-->
+    <dimen name="alert_width">290dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+    <!--sweet-->
+    <dimen name="attachment_item_height">72dp</dimen>
+
+    <dimen name="manage_font_size">31sp</dimen>
+
+
+    <dimen name="radio_button_conner_radius">5dp</dimen>
+    <dimen name="radio_button_stroke_border">1dp</dimen>
+    <integer name="slide_time">200</integer>
+
+
+    <dimen name="ttlm_default_padding">20dip</dimen>
+    <dimen name="ttlm_default_corner_radius">4dip</dimen>
+    <dimen name="ttlm_default_stroke_weight">0dip</dimen>
+    <dimen name="ttlm_default_elevation">2dp</dimen>
+
+    <dimen name="anchor_point">450dp</dimen>
+    <dimen name="bottom_sheet_peek_height">54dp</dimen>
+
+</resources>

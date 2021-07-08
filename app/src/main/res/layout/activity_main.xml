@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.abc.dailycaloriecounter.activity.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/header_view"
+        android:fadingEdgeLength="@dimen/m5dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/m55dp"
+        android:background="@color/ios_orange"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            style="@style/WrapContent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <com.example.abc.dailycaloriecounter.views.TextViewPlus
+                android:id="@+id/tv_header_title"
+                style="@style/WrapContent"
+                android:text="Diary"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                app:customFont="@string/OpenSans_Bold" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <com.example.abc.dailycaloriecounter.transforms.NonSwipeableViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/transparent" />
+
+    <View xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black_et" />
+
+
+    <com.example.abc.dailycaloriecounter.views.TabLayoutPlus
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/m50dp"
+        android:background="@color/white"
+        app:customFont="@string/OpenSans_Regular"
+        app:tabTextColor="@color/black"
+        android:layout_gravity="bottom"
+        app:tabIndicatorColor="@color/transparent"
+        app:tabGravity="fill"
+        app:tabMode="fixed"/>
+
+</LinearLayout>
